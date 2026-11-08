@@ -56,18 +56,18 @@ This document presents the key business insights obtained from analyzing pizza s
 * Cumulative revenue:              817860.05
 * Top 3 pizzas in each category:  
 
-Chicken	The Thai Chicken Pizza	
-Chicken	The Barbecue Chicken Pizza	
-Chicken	The California Chicken Pizza	
-Classic	The Classic Deluxe Pizza	
-Classic	The Hawaiian Pizza	
-Classic	The Pepperoni Pizza	
-Supreme	The Spicy Italian Pizza	
-Supreme	The Italian Supreme Pizza	
-Supreme	The Sicilian Pizza	
-Veggie	The Four Cheese Pizza	
-Veggie	The Mexicana Pizza	
-Veggie	The Five Cheese Pizza
+Chicken	-The Thai Chicken Pizza	
+Chicken	-The Barbecue Chicken Pizza	
+Chicken	-The California Chicken Pizza	
+Classic	-The Classic Deluxe Pizza	
+Classic	-The Hawaiian Pizza	
+Classic-	The Pepperoni Pizza	
+Supreme	-The Spicy Italian Pizza	
+Supreme	-The Italian Supreme Pizza	
+Supreme-	The Sicilian Pizza	
+Veggie	-The Four Cheese Pizza	
+Veggie	-The Mexicana Pizza	
+Veggie	-The Five Cheese Pizza
 
 **Insight**: Understand long-term revenue growth and product-level performance.
 
