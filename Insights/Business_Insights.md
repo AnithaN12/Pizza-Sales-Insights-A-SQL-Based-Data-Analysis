@@ -56,7 +56,7 @@ This document presents the key business insights obtained from analyzing pizza s
 * Cumulative revenue:              817860.05
 * Top 3 pizzas in each category:  
 
-   1.Chicken	-The Thai Chicken Pizza	
+   1. Chicken	-The Thai Chicken Pizza	
    1. Chicken	-The Barbecue Chicken Pizza	
    1. Chicken	-The California Chicken Pizza	
    2. Classic	-The Classic Deluxe Pizza	
