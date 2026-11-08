@@ -14,11 +14,11 @@
 # Dataset Description
 The project uses four relational tables:
 
-**Table**                        **Description**
-orders                        Order ID and order date
-order_details                 Order details, pizza ID, quantity
-pizzas                        Pizza ID, pizza type ID, size, price
-pizza_types                   Pizza type ID, name, category, ingredients
+**Table**         -               **Description**
+orders             -           Order ID and order date
+order_details        -         Order details, pizza ID, quantity
+pizzas               -         Pizza ID, pizza type ID, size, price
+pizza_types            -       Pizza type ID, name, category, ingredients
 
 **Data relationships:**
 orders connects to order_details through order_id.
