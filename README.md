@@ -14,16 +14,16 @@
 # Dataset Description
 The project uses four relational tables:
 
-**Table**         -               **Description**
-orders             -           Order ID and order date
-order_details        -         Order details, pizza ID, quantity
-pizzas               -         Pizza ID, pizza type ID, size, price
-pizza_types            -       Pizza type ID, name, category, ingredients
+**Table**                       **Description**
+* orders                       Order ID and order date
+* order_details                Order details, pizza ID, quantity
+* pizzas                       Pizza ID, pizza type ID, size, price
+* pizza_types                  Pizza type ID, name, category, ingredients
 
 **Data relationships:**
-orders connects to order_details through order_id.
-order_details connects to pizzas through pizza_id.
-pizzas connects to pizza_types through pizza_type_id.
+* orders connects to order_details through order_id.
+* order_details connects to pizzas through pizza_id.
+* pizzas connects to pizza_types through pizza_type_id.
 
 # Project Workflow
 **1. Data Collection**
@@ -47,21 +47,22 @@ Organize SQL scripts, key findings, and project documentation.
 
 # SQL Analysis – Business Questions
 The SQL analysis is divided into three levels.
+
 **Basic Analysis**
 **Business question**               **SQL concepts**
-* Total number of orders placed       COUNT, DISTINCT
-* Total revenue generated             SUM, JOIN
-* Highest-priced pizza                MAX, JOIN
-* Most common pizza size ordered      GROUP BY, SUM
-* Top 5 most ordered pizza types      JOIN, GROUP BY, ORDER BY, LIMIT
+* Total number of orders placed        COUNT, DISTINCT
+* Total revenue generated              SUM, JOIN
+* Highest-priced pizza                 MAX, JOIN
+* Most common pizza size ordered       GROUP BY, SUM
+* Top 5 most ordered pizza types       JOIN, GROUP BY, ORDER BY, LIMIT
 
 **Intermediate Analysis**
 **Business question**                         **SQL concepts**
-* Total quantity ordered by pizza category      JOIN, GROUP BY
-* Distribution of orders by hour                HOUR, GROUP BY
-* Category-wise pizza distribution              JOIN, GROUP BY
-* Average number of pizzas ordered per day      Subquery, AVG
-* Top 3 pizza types based on revenue            SUM, GROUP BY, LIMIT
+* Total quantity ordered by pizza category       JOIN, GROUP BY
+* Distribution of orders by hour                 HOUR, GROUP BY
+* Category-wise pizza distribution               JOIN, GROUP BY
+* Average number of pizzas ordered per day       Subquery, AVG
+* Top 3 pizza types based on revenue             SUM, GROUP BY, LIMIT
 
 **Advanced Analysis**
 **Business question**                                                 **SQL concepts**
